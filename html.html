@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PSD to HTML</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container-fluid page-container">
+
+    <div class="row header">
+        <div class="col-md-6 text-center logo"><img src="images/logo.png" alt="Logo" title="Logo" /></div>
+        <div class="col-md-6">
+            <h1>Puppy Examination Report</h1>
+            <p>Dreamy Puppy # <input type="text" name="dreapy_puppy_id" class="custom_textbox" /></p>
+            <p>Birthdate: <input type="text" class="custom_textbox" /> Sex: <input type="checkbox" /> Male <input type="checkbox" /> Female </p>
+            <p>Breed/Cross: <input type="text" class="custom_textbox" /></p>
+            <p>Color/Markings: <input type="text" class="custom_textbox" style="width: 70%;" /></p>
+            <p><input type="text" class="custom_textbox" style="width: 100%;" /></p>
+            <p>Todays Date: <input type="text" class="custom_textbox" /></p>
+            <p class="examined_by">Examined By: Dr.*doctor name and contact information goes here*</p>
+        </div>
+    </div>
+
+    <div class="container-fluid main-content">
+        <div class="row main-row">
+            <div class="col-md-6">
+                <h1>A. Coat & Skin</h1>
+                <div class="row choices">
+                    <div class="col-md-4"><input type="checkbox" /> Appear Normal </div>
+                    <div class="col-md-4"><input type="checkbox" /> Pigment </div>
+                    <div class="col-md-4"><input type="checkbox" /> Itchy </div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-4"><input type="checkbox" /> Dry/Dull </div>
+                    <div class="col-md-4"><input type="checkbox" /> Lesion </div>
+                    <div class="col-md-4"><input type="checkbox" /> Matted </div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-4"><input type="checkbox" /> Greasy </div>
+                    <div class="col-md-4"><input type="checkbox" /> Lumps </div>
+                    <div class="col-md-4"><input type="checkbox" /> Shedding </div>
+                </div></div>
+            <div class="col-md-6">
+                <h1>H. Abdomen</h1>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Appear Normal </div>
+                    <div class="col-md-6"><input type="checkbox" /> Abnormal Mass</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Enlarged Organs</div>
+                    <div class="col-md-6"><input type="checkbox" /> Tense/Painful</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Fluid</div>
+                    <div class="col-md-6"><input type="checkbox" /> Other: <input type="text" class="custom_textbox" /></div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                </div></div>
+        </div>
+
+        <div class="row main-row">
+            <div class="col-md-6">
+                <h1>B. Eyes</h1>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Appear Normal </div>
+                    <div class="col-md-6"><input type="checkbox" /> Cataract: <input type="checkbox" /> L, <input type="checkbox" /> R</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Discharge:  <input type="checkbox" /> L, <input type="checkbox" /> R</div>
+                    <div class="col-md-6"><input type="checkbox" /> Dry Eye:  <input type="checkbox" /> L, <input type="checkbox" /> R</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Inflamed: <input type="checkbox" /> L, <input type="checkbox" /> R</div>
+                    <div class="col-md-6"><input type="checkbox" /> Ulcers/Lesions: <input type="checkbox" /> L, <input type="checkbox" /> R</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Infection: <input type="checkbox" /> L, <input type="checkbox" /> R</div>
+                    <div class="col-md-6"><input type="checkbox" /> Other: <input type="text" class="custom_textbox" /></div>
+                </div></div>
+            <div class="col-md-6">
+                <h1>I. Lungs</h1>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Sounds Normal </div>
+                    <div class="col-md-6"><input type="checkbox" /> Breathing Difficulty</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Abnormal Sound</div>
+                    <div class="col-md-6"><input type="checkbox" /> Rapid Respiration</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Coughing</div>
+                    <div class="col-md-6"><input type="checkbox" /> Other: <input type="text" class="custom_textbox" /></div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Congestion</div>
+                    <div class="col-md-6"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row main-row">
+            <div class="col-md-6">
+                <h1>C. Ears</h1>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Appear Normal </div>
+                    <div class="col-md-6"><input type="checkbox" /> Excessive debris: <input type="checkbox" /> L, <input type="checkbox" /> R</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Inflamed: <input type="checkbox" /> L, <input type="checkbox" /> R</div>
+                    <div class="col-md-6"><input type="checkbox" /> Excessive Hair</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Yeast Inf: <input type="checkbox" /> L, <input type="checkbox" /> R</div>
+                    <div class="col-md-6"><input type="checkbox" /> Itchy <input type="checkbox" /> L, <input type="checkbox" /> R</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Bacterial Inf: <input type="checkbox" /> L, <input type="checkbox" /> R</div>
+                    <div class="col-md-6"><input type="checkbox" /> Mites</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6"><input type="checkbox" /> Other: <input type="text" class="custom_textbox" /></div>
+                </div></div>
+            <div class="col-md-6">
+                <h1>J. Gastrointestinal System</h1>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Appears Normal </div>
+                    <div class="col-md-6"><input type="checkbox" /> Abnormal Feces</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Excessive Gas</div>
+                    <div class="col-md-6"><input type="checkbox" /> Parasites</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Vomitting</div>
+                    <div class="col-md-6"><input type="checkbox" /> Diarrhea</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Anorexia</div>
+                    <div class="col-md-6"><input type="checkbox" /> Other: <input type="text" class="custom_textbox" /></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row main-row">
+            <div class="col-md-6">
+                <h1>D. Nose &amp; Throat</h1>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Appear Normal </div>
+                    <div class="col-md-6"><input type="checkbox" /> Enlarged Glands</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Inflamed Throat</div>
+                    <div class="col-md-6"><input type="checkbox" /> Other <input type="text" class="custom_textbox" /></div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Inflamed Tonsils</div>
+                    <div class="col-md-6"></div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-12"><input type="checkbox" /> Nasal Discharge: <input type="checkbox" /> Clear, <input type="checkbox" /> Yellow, <input type="checkbox" /> Green</div>
+                </div></div>
+            <div class="col-md-6">
+                <h1>K. Urogenital System</h1>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Appears Normal </div>
+                    <div class="col-md-6"><input type="checkbox" /> Mammary Tumors</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Abnormal Urination</div>
+                    <div class="col-md-6"><input type="checkbox" /> Anal Sacs</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Genital Discharge</div>
+                    <div class="col-md-6"><input type="checkbox" /> Enlarged Prostate</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Abnormal Testices</div>
+                    <div class="col-md-6"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row main-row">
+            <div class="col-md-6">
+                <h1>E. Mouth, Teeth, Gums</h1>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Appear Normal </div>
+                    <div class="col-md-6"><input type="checkbox" /> Gingivitis (Inflamed Gums)</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Broken Teeth</div>
+                    <div class="col-md-6"><input type="checkbox" /> Ulcers/Lesions</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Loose Tooth</div>
+                    <div class="col-md-6"><input type="checkbox" /> Pyorrhea (pus)</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-12"><input type="checkbox" /> Tarter: <input type="checkbox" /> Major, <input type="checkbox" /> Moderate, <input type="checkbox" /> Minor</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h1>L. Weight <input type="text" class="custom_textbox" /> lbs.</h1>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Normal Range </div>
+                    <div class="col-md-6"><input type="checkbox" /> Underweight <input type="text" class="custom_textbox" style="width: 15%;" /> lbs. </div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Overweight <input type="text" class="custom_textbox" style="width: 15%;" /> lbs. </div>
+                    <div class="col-md-6"><input type="checkbox" /> Other: <input type="text" class="custom_textbox" /> </div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6"><input type="text" class="custom_textbox" style="width: 100%;" /> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row main-row">
+            <div class="col-md-6">
+                <h1>F. Musculoskeletal</h1>
+                <div class="row choices">
+                    <div class="col-md-12"><input type="checkbox" /> Appear Normal </div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-12"><input type="checkbox" /> Lameness <input type="checkbox" /> LF, <input type="checkbox" /> RF, <input type="checkbox" /> LR, <input type="checkbox" /> RR</div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-12"><input type="checkbox" /> Pain on palpation</div>
+                </div></div>
+            <div class="col-md-6">
+                <h1>M. Legs</h1>
+                <div class="row choices">
+                    <div class="col-md-6"><input type="checkbox" /> Normal, no problems with knees or joints </div>
+                    <div class="col-md-6"><input type="checkbox" /> Pateller luxation <input type="checkbox" /> L, <input type="checkbox" /> R, <input type="checkbox" /> R & L </div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-12"><input type="checkbox" /> Grade <input type="text" class="custom_textbox" style="width: 85%;" /></div>
+                </div>
+                <div class="row choices">
+                    <div class="col-md-12"><input type="text" class="custom_textbox" style="width: 100%;" /> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>G. Heart</h1>
+                        <div class="row choices">
+                            <div class="col-md-6"><input type="checkbox" /> Sounds Normal</div>
+                            <div class="col-md-6"><input type="checkbox" /> Arrhythmia</div>
+                        </div>
+                        <div class="row choices">
+                            <div class="col-md-6"><input type="checkbox" /> Murmur: Grade <input type="text" class="custom_textbox" style="width: 10%;" /></div>
+                            <div class="col-md-6">Other: <input type="text" class="custom_textbox" /></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Vaccinations</h1>
+                        <div class="row choices">
+                            <div class="col-xs-4"></div>
+                            <div class="col-xs-3 text-left">Given Today</div>
+                            <div class="col-xs-5 text-left">or Due Date</div>
+                        </div>
+                        <div class="row choices">
+                            <div class="col-xs-4">Corona/Parvo</div>
+                            <div class="col-xs-2 text-center"><input type="checkbox" /></div>
+                            <div class="col-xs-6 text-left"><input type="text" class="custom_textbox" style="text-align: center" /></div>
+                        </div>
+                        <div class="row choices">
+                            <div class="col-xs-4">Bordatella</div>
+                            <div class="col-xs-2 text-center"><input type="checkbox" /></div>
+                            <div class="col-xs-6 text-left"><input type="text" class="custom_textbox" style="text-align: center" /></div>
+                        </div>
+                        <div class="row choices">
+                            <div class="col-xs-4">Lyme</div>
+                            <div class="col-xs-2 text-center"><input type="checkbox" /></div>
+                            <div class="col-xs-6 text-left"><input type="text" class="custom_textbox" style="text-align: center" /></div>
+                        </div>
+                        <div class="row choices">
+                            <div class="col-xs-4">DHLP-P</div>
+                            <div class="col-xs-2 text-center"><input type="checkbox" /></div>
+                            <div class="col-xs-6 text-left"><input type="text" class="custom_textbox" style="text-align: center" /></div>
+                        </div>
+                        <div class="row choices">
+                            <div class="col-xs-4">Rabies</div>
+                            <div class="col-xs-2 text-center"><input type="checkbox" /></div>
+                            <div class="col-xs-6 text-left"><input type="text" class="custom_textbox" style="text-align: center" /></div>
+                        </div>
+                        <div class="row choices">
+                            <div class="col-xs-4">Other</div>
+                            <div class="col-xs-2 text-center"><input type="checkbox" /></div>
+                            <div class="col-xs-6 text-left"><input type="text" class="custom_textbox" style="text-align: center" /></div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row recommendations">
+                    <div class="col-md-12">
+                        <h1>Recommendations</h1>
+                        <div class="row recomm-row">
+                            <div class="col-md-12"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                        </div>
+                        <div class="row recomm-row">
+                            <div class="col-md-12"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                        </div>
+                        <div class="row recomm-row">
+                            <div class="col-md-12"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                        </div>
+                        <div class="row recomm-row">
+                            <div class="col-md-12"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                        </div>
+                        <div class="row recomm-row">
+                            <div class="col-md-12"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                        </div>
+                        <div class="row recomm-row" style="padding: 15px 0;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="row diagnosis">
+                    <div class="col-md-12">
+                        <h1>Diagnosis / Explanation</h1>
+                        (Letters below correspond to letters above)
+                        <div class="row diag-row">
+                            <div class="col-md-12"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                        </div>
+                        <div class="row diag-row">
+                            <div class="col-md-12"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                        </div>
+                        <div class="row diag-row">
+                            <div class="col-md-12"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                        </div>
+                        <div class="row diag-row">
+                            <div class="col-md-12"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                        </div>
+                        <div class="row diag-row">
+                            <div class="col-md-12"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                        </div>
+                        <div class="row diag-row">
+                            <div class="col-md-12"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                        </div>
+                        <div class="row diag-row">
+                            <div class="col-md-12"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                        </div>
+                        <div class="row diag-row">
+                            <div class="col-md-12"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                        </div>
+                        <div class="row diag-row">
+                            <div class="col-md-12"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                        </div>
+                        <div class="row diag-row">
+                            <div class="col-md-12"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                        </div>
+                        <div class="row diag-row">
+                            <div class="col-md-12"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                        </div>
+                        <div class="row diag-row">
+                            <div class="col-md-12"><input type="text" class="custom_textbox" style="width: 100%;" /></div>
+                        </div>
+                        <div class="row diag-row" style="padding: 15px 0;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

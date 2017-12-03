@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "LiberationSansBold";
+    src: url('../fonts/LiberationSans-Bold.ttf');
+}
+body {
+    font-family: "LiberationSansBold";
+    color: #545454;
+}
+.page-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container-fluid {
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.header h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #4C4C4C;
+}
+.header {
+    font-size: 24px;
+}
+.logo {
+    padding-top: 15px;
+}
+.logo img {
+    width: 80%;
+}
+.custom_textbox {
+    border: none;
+    border-bottom: 2px solid #545454;
+}
+.custom_textbox:focus {
+    outline: none;
+}
+.examined_by {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: right;
+    position: relative;
+    top: 15px;
+}
+.main-content {
+    border: 2px solid #8C8C8C;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-top: 28px;
+    padding: 20px;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+.main-row {
+    margin-bottom: 20px;
+}
+.main-content h1 {
+    font-size: 24px;
+}
+.choices {
+    font-size: 20px;
+}
+.recommendations {
+    border: 2px solid #8C8C8C;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 15px;
+    margin-left: -22px;
+}
+.recommendations h1 {
+    margin: 0;
+    padding: 0;
+}
+.recomm-row input {
+    padding-top: 30px;
+}
+.diagnosis {
+    border: 2px solid #8C8C8C;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-top: 20px;
+    padding: 15px;
+    margin-right: -22px;
+}
+.diagnosis h1 {
+    margin: 0;
+    padding: 0;
+}
+.diag-row input {
+    padding-top: 30px;
+}
+
